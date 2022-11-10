@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#menu {
+    background-color: #eee;
+    padding: 10px;
+}
+
+#menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    width: 100%;
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    color: #1E69E3;
+    text-decoration: none;
+}
+
+#menu ul li a:hover {
+    color: rgb(227, 109, 30);
+    text-decoration: none;
+}
+
+.cerrar-sesion {
+    float: right;
+}
+
+.login-box {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    left: calc(36% - 45px);
+}
+
+.lef {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    left: calc(45% - 45px);
+}
+
+.righ {
+    background-position: right;
+    position: absolute;
+}
